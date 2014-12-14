@@ -10,8 +10,8 @@ fi
 # Check for an interactive session
 [ -z "$PS1" ] && return
 alias vi='vim --noplugin'
-alias l='ls -lht -G'
-alias ls='ls -lht -G'
+alias l='ls -laht -G'
+alias ls='ls -G'
 alias ll='ls -lht -G'
 alias grep='grep --color'
 
