@@ -10,7 +10,7 @@ fi
 # Check for an interactive session
 [ -z "$PS1" ] && return
 alias vi='vim --noplugin'
-alias l='ls -laht -G'
+alias l='ls -lhta -G'
 alias ls='ls -G'
 alias ll='ls -lht -G'
 alias grep='grep --color'
@@ -31,7 +31,6 @@ export VISUAL="vim"
 export PYTHONIOENCODING=UTF-8
 
 PS1='\[\e[0;31m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[0;31m\]\$ \[\e[m\]\[\e[0;32m\] '
-[[ -s "/home/work/.jumbo/etc/bashrc" ]] && source "/home/work/.jumbo/etc/bashrc"
 
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
