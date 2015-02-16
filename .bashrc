@@ -14,6 +14,7 @@ alias l='ls -lhta -G'
 alias ls='ls -G'
 alias ll='ls -lht -G'
 alias grep='grep --color'
+alias cp='cp -i'
 
 set show-all-if-ambiguous on
 
@@ -36,3 +37,4 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
 fi
 source ~/.git-completion.bash
+export PATH=/usr/local/share/python:$PATH
