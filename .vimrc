@@ -1,5 +1,10 @@
 " Copyright 2012 Mahdi Yusuf, all rights reserved.
 
+set fileencodings=utf-8,gb2312,gbk,gb18030
+set termencoding=utf-8
+set fileformats=unix
+set encoding=prc
+
 set re=1
 
 call pathogen#infect()              " adding pathogen to vimrc
