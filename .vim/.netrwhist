@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/work'
-let g:netrw_dirhist_2='/home/work/hadoop-mnt-rank'
-let g:netrw_dirhist_3='/home/work/xuke/Moses'
-let g:netrw_dirhist_4='/Users/eric_xu/百度云同步盘/CPP/coursera'
