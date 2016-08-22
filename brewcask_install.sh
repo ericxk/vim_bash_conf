@@ -11,4 +11,3 @@ brew cask cleanup
 
 ##Upgrade pip
 pip list --outdated | grep '^[a-z]* (' | cut -d " " -f 1 | xargs pip install -U
-launchctl unload ~/Library/LaunchAgents/ooo.oxo.apps.earth.launchctl.plist
