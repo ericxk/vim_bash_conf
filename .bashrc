@@ -15,6 +15,7 @@ alias ls='ls -G'
 alias ll='ls -lht -G'
 alias grep='grep --color'
 alias cp='cp -i'
+alias free='top -l 1 | head -n 10 | grep PhysMem'
 
 set show-all-if-ambiguous on
 
