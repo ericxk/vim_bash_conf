@@ -10,4 +10,4 @@ brew cleanup
 brew cask cleanup
 
 ##Upgrade pip
-pip list --outdated | grep '^[a-z]* (' | cut -d " " -f 1 | xargs pip install -U
+pip3 list --outdated | cut -d " " -f 1 | grep -v "-" | grep -v Package | xargs pip3 install -U
